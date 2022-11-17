@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+
+<head>
+    <script>
+        function over() 
+        { 
+            document.write("hover in")
+        }
+        function out()
+        {
+            document.write("out now")
+        }
+    </script>
+</head>
+
+<body>
+    <p> Let see how this works</p>
+    <div onmouseover = "over()" onmouseout="out()"</div>
+     <h2> This is inside the division </h2>
+</body>
+
+</html>
